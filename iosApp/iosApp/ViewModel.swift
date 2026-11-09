@@ -489,7 +489,8 @@ class ViewModel {
                     preselectedDocuments: preselectedDocuments,
                     onDocumentsInFocus: { documents in
                         onDocumentsInFocus(documents)
-                    }
+                    },
+                    transactionDataRendererRepository: walletTransactionDataRenderers
                 )
             },
             getFaceMatchingModeFn: { credential, requesterIdentities in

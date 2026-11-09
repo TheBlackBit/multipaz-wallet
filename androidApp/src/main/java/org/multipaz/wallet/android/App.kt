@@ -93,6 +93,7 @@ import org.multipaz.wallet.android.navigation.ProvisioningNavHost
 import org.multipaz.wallet.android.navigation.VerificationShowResponseDestination
 import org.multipaz.wallet.android.navigation.WalletDestination
 import org.multipaz.wallet.android.ui.CommunicatingWithBackendDialog
+import org.multipaz.wallet.android.ui.presentment.walletTransactionDataRenderers
 import org.multipaz.wallet.android.settings.SettingsModel
 import org.multipaz.wallet.client.WalletClient
 import org.multipaz.wallet.client.clearOnSignOut
@@ -491,7 +492,8 @@ class App private constructor() {
             trustedRequesterIdentity = trustedRequesterIdentity,
             presentmentData = presentmentData,
             preselectedDocuments = preselectedDocuments,
-            onDocumentsInFocus = onDocumentsInFocus
+            onDocumentsInFocus = onDocumentsInFocus,
+            transactionDataRendererRepository = walletTransactionDataRenderers,
         )
     }
 

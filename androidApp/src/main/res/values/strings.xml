@@ -954,4 +954,11 @@
     <string name="add_reader_identifier_dialog_description">Enter the Subject Key Identifier identifying the reader.</string>
     <string name="add_reader_identifier_dialog_label">Subject Key Identifier (hex)</string>
     <string name="add_reader_identifier_dialog_add_button">Add</string>
+
+    <!-- Consent prompt: spending permission (AP2 delegate transaction data) -->
+    <string name="spending_permission_title">Spending permission</string>
+    <string name="spending_permission_explainer">An agent will be able to spend for you without asking again, until these limits are reached.</string>
+    <string name="spending_permission_details_explainer">Everything below is part of what you sign.</string>
+    <string name="spending_permission_requested_by">Requested by</string>
+    <string name="spending_permission_mandate_type">Type: %1$s</string>
 </resources>
